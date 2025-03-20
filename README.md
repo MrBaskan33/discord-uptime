@@ -7,7 +7,11 @@ ___
 - [x] Ayarlanabilir sistemler.
 - [x] Özelleştirilebilir gelişmiş dil sistemi.
 - [x] Form, buton sistemleri.
-- [x] Ekonomi sistemi
+- [x] Ekonomi sistemi.
+- [x] Link limit sistemi.
+- [x] Profil ve rozet sistemleri.
+- [x] Bakım, karaliste, premium sistemleri.
+- [x] Sunucu uptime sistemi.
 - [x] Eklendim-atıldım, komut, hata log sistemleri.
 - [x] Daha okunaklı ve düzenli kod satırları ve dosyaları.
 - [x] Güzel görünümlü menüler.
@@ -15,7 +19,7 @@ ___
 
 ___
 
-![Stars](https://img.shields.io/github/stars/MrBaskan33/discord-botlist?style=social)&nbsp;&nbsp;![Forks](https://img.shields.io/github/forks/MrBaskan33/discord-botlist?style=social)&nbsp;&nbsp;![License](https://img.shields.io/github/license/MrBaskan33/discord-botlist)
+![Stars](https://img.shields.io/github/stars/MrBaskan33/discord-uptime?style=social)&nbsp;&nbsp;![Forks](https://img.shields.io/github/forks/MrBaskan33/discord-uptime?style=social)&nbsp;&nbsp;![License](https://img.shields.io/github/license/MrBaskan33/discord-uptime)
 
 ___
 
