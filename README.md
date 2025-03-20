@@ -23,7 +23,7 @@ ___
 
 ___
 
-[![Card](https://github-readme-stats.vercel.app/api/pin/?username=mrbaskan33&repo=discord-botlist&theme=tokyonight)](https://github.com/MrBaskan33/discord-uptime)
+[![Card](https://github-readme-stats.vercel.app/api/pin/?username=mrbaskan33&repo=discord-uptime&theme=tokyonight)](https://github.com/MrBaskan33/discord-uptime)
 
 ___
 
