@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
-const { JsonDatabase } = require("baskan.js")
-const db = new JsonDatabase({path: "./bot/database.json"})
+const { JsonDatabase } = require("wio.db")
+const db = new JsonDatabase({databasePath: "./bot/database.json"})
 const settings = require("../settings.json")
 const emojis = require("../bot/emojis.json")
 const wait = require('node:timers/promises').setTimeout
