@@ -2,5 +2,6 @@
   "owners": [""],
   "bot": "",
   "token": "",
+  "supportServer": "",
   "defaultLang": "tr"
 }
