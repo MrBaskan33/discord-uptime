@@ -10,7 +10,6 @@ const locales = {
 }
  
 module.exports = {
-  guild_only: true,
   data: new Discord.SlashCommandBuilder()    
     .setName("blacklist")
     .setNameLocalizations({
