@@ -9,8 +9,6 @@ const locales = {
 }
 
 module.exports = {
-  slash: true,
-  cooldown: 1,
   data: new Discord.SlashCommandBuilder()    
     .setName("invite")
     .setNameLocalizations({
