@@ -34,16 +34,19 @@ readdirSync('./events').forEach(async file => {
 })
 
 const commands = []
-readdirSync('./commands').forEach(async file => {
-  const command = await require(`./commands/${file}`)
-  commands.push(command.data.toJSON())
-  client.commands.set(command.data.name, command)
-  console.log(`[${file}] command loaded.`)
+client.commands = new Discord.Collection()
+readdirSync("./commands").forEach(async file => {
+  if(file.endsWith('.js')) {
+    const command = await require(`./commands/${file}`)
+    commands.push(command.data.toJSON())
+    client.commands.set(command.data.name, command)
+    console.log(`[${file}] slash command loaded.`)
+  }
 })
 
-const rest = new Discord.REST({version: '10'}).setToken(settings.token)
+const rest = new Discord.REST({version: "10"}).setToken(settings.token)
 setTimeout(async () => {
-  rest.put(Discord.Routes.applicationCommands(settings.bot), {body: commands}).catch(console.error)
+  rest.put(Discord.Routes.applicationCommands(settings.botId), {body: commands}).catch(console.error)
 }, 500)
 
 //_____// Eklendim \\_____\\
