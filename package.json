@@ -1,0 +1,16 @@
+{
+  "name": "Uptime bot",
+  "version": "1.0.0",
+  "description": "Uptime bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node --no-warnings bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "wio.db": "^4.0.22",
+    "fs": "^0.0.2",
+    "node-fetch": "^2.6.7",
+    "axios": "^1.8.3"
+  }
+}
