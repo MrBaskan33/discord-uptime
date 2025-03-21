@@ -1,7 +1,7 @@
 {
-  "name": "Uptime bot",
+  "name": "bot",
   "version": "1.0.0",
-  "description": "Uptime bot",
+  "description": "bot",
   "main": "bot.js",
   "scripts": {
     "start": "node --no-warnings bot.js"
