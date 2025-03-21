@@ -10,8 +10,7 @@
     "discord.js": "^14.14.1",
     "wio.db": "^4.0.22",
     "fs": "^0.0.2",
-    "node-fetch": "^2.6.7",
-    "axios": "^1.8.3"
+    "node-fetch": "^2.6.7"
   },
   "engines": {
     "node": "16.x"
