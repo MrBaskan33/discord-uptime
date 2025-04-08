@@ -74,7 +74,7 @@ module.exports = {
     var luck2 = lucks[Math.floor(Math.random() * lucks.length)]
     var luck3 = lucks[Math.floor(Math.random() * lucks.length)]
       
-    db.substract(`${interaction.user.id}.balance`, amount)
+    db.substr(`${interaction.user.id}.balance`, amount)
     
     const slotwait = new Discord.EmbedBuilder()
       .setColor("Blurple")
